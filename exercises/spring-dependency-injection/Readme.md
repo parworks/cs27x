@@ -21,6 +21,8 @@ transformed into JSON and returned. Methods without this annotation
 have an appropriate view JSP retrieved from the war/WEB-INF/jsp folder
 and used to render the response to the client.
 
+See the add() method of PhotoSvc for a quick example.
+
 
 Pair Programming
 ------------------------
@@ -37,5 +39,5 @@ See the PhotoSvc class for the exercise steps.
 Running the App
 ---------------
 1. Right-lick on the RestServer class, run-as, Java Application
-2. Open your browser to http://localhost:8080/cs27x/<some request mapping> (e.g., http://localhost:8080/cs27x/uploadForm)
+2. Open your browser to http://localhost:8080/cs27x/<some request mapping> (e.g., http://localhost:8080/cs27x/add?a=1&b=2)
 
